@@ -28,3 +28,7 @@ table {
 #btn:hover {
     background-color: rgb(196, 138, 13);
 }
+#text {
+    text-align: center;
+    color: rgb(146, 193, 224);
+}
