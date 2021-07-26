@@ -1,0 +1,30 @@
+table {
+    background-color: rgb(19, 18, 18);
+    border: 5px solid rgb(207, 204, 5);
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#type {
+    width: 340px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 3px solid white;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    place-self: center;
+}
+
+#btn {
+    width: 200px;
+    background-color: rgb(0, 195, 255);
+    height: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#btn:hover {
+    background-color: rgb(196, 138, 13);
+}
