@@ -30,6 +30,10 @@
             <tr>
                 <td align="center"><img src="../admin-img/system-administrator.png" width="45%"> </td>
             </tr>
+            
+            <tr>
+                <td align = "center" id="text"><h2>Administrator Login</h2></td>
+            </tr>
             <tr>
                 <td><input type="text" name= "username" placeholder="Username" id="type"> </td>
             </tr>
