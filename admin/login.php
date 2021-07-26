@@ -28,7 +28,7 @@
     <form action ="" method="POST" class="text-center">
         <table width="30%" border="0" cellspacing="35" align="center">
             <tr>
-                <td align="center"><img src="../admin-img/system-administrator.png" width="45%"> </td>
+                <td align="center"><img src="../admin-img/system-administrator.png" width="30%"> </td>
             </tr>
             
             <tr>
