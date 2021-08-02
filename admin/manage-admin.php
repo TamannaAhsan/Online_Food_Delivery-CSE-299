@@ -10,6 +10,11 @@
                      echo $_SESSION['add']; //Display Session Message
                      unset($_SESSION['add']); //Removing Session Message
                  }
+
+                 if (isset($_SESSION['delete'])) {
+                     echo $_SESSION['delete']; //Display Session Message
+                     unset($_SESSION['delete']); //Removing Session Message
+                 }
             ?>
 
             <br><br><br>
@@ -57,7 +62,7 @@
                                         <td><?php echo $sn++; ?></td>
                                         <td><?php echo $full_name; ?></td>
                                         <td>
-                                            <a href="" class="btn-detele">Delete</a>
+                                            <a href="<?php echo SITE; ?>admin/delete-admin.php?id=<?php echo $id; ?>" class="btn-detele">Delete</a> 
                                         </td>
                                     </tr>
 
