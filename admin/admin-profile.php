@@ -7,7 +7,7 @@
                         <img  src="../admin-img/pngegg.png" alt="account" > 
                     </div> 
 
-                    <?php
+        <?php
 
               $username = $_SESSION["user"];
              
@@ -24,9 +24,9 @@
             //Get the details
             $row=mysqli_fetch_assoc($res);
 
-            $full_name = $row["full_name"];
-            $username = $row["username"];
-            $id = $row["id"];
+            $full_name = $row['full_name'];
+            $username = $row['username'];
+            $id = $row['id'];
         }
     }
  ?>
@@ -35,7 +35,7 @@
                 <table class="profile-table" >
                     <thead>
                     <tr>
-                    <th colspan="2" ><h2  align="center">Profile information</h2></th>
+                    <th colspan="2" ><h2  align="center">Profile Information</h2></th>
                     
                     </tr>
                    </thead>
@@ -58,12 +58,32 @@
                 </table>
             </form>
             </div>
+            <?php
+                            if (isset($_SESSION['edit'])) {
+                                echo $_SESSION['edit']; //Display Session Message
+                                unset($_SESSION['edit']); //Updating Session Message
+                            }
+
+                            if (isset($_SESSION['user-not-found'])) {
+                                echo $_SESSION['user-not-found'];
+                                unset($_SESSION['user-not-found']);
+                            }
+           
+                            if (isset($_SESSION['pwd-not-match'])) {
+                                echo $_SESSION['pwd-not-match'];
+                                unset($_SESSION['pwd-not-match']);
+                            }
+           
+                            if (isset($_SESSION['change-pwd'])) {
+                                echo $_SESSION['change-pwd'];
+                                unset($_SESSION['change-pwd']);
+                            }
+                        ?>
                 <br><br>
                 <div align="left" cellpadding="50%" cellspacing="10%" >
                     <tr>
-                    <a href="#"class="btn-detele"  >Update</a>
-                    <a  href="#"class="btn-detele"  >Delete</a>
-                    <a  href="#"class="btn-detele"  >Change Password</a>
+                    <a href="<?php echo SITE; ?>admin/update-admin.php?id=<?php echo $id; ?>" class="btn-detele">Edit</a>
+                    <a href="<?php echo SITE; ?>admin/update-password.php?id=<?php echo $id; ?>" class="btn-detele">Change Password</a>
                    
                     </tr>
                 </div>
