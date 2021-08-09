@@ -86,8 +86,7 @@
                                         </td>
                                         <td><?php echo $featured; ?></td>
                                         <td><?php echo $active; ?></td>
-                                        <td>
-                                        <td> <a href="#"class="btn-update"  >Update</a>
+                                        <td> <a href="#"class="btn-update">Update</a>
                                              <a href="<?php echo SITE; ?>admin/delete-category.php?id=<?php echo $id; ?> &image_name=<?php echo $image_name; ?>" class="btn-detele">Delete</a>
                                         </td>
                                     </tr>
