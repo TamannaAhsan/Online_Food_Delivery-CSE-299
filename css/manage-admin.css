@@ -52,6 +52,7 @@
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
+    margin:7px;  
 }
 .btn-update:hover{
     background-color:rgb(51, 7, 133) ;
@@ -64,6 +65,7 @@
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    margin:7px;
     
 }
 .btn-detele:hover{
