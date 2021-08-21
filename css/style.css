@@ -14,7 +14,7 @@
         float:left;
     
     
-    }
+    }  
     .ResponsiveImage{
 
            max-width:100%;
@@ -103,7 +103,7 @@
       .Button{
       padding:3%;
       border:none;
-      font-size:1 rem;
+      font-size:2 rem;
       background-color:hsl(286, 100%, 60%);
       color:whitesmoke;
       border-radius:50px;
@@ -125,17 +125,9 @@
      #Cuisines{
       padding:4% 0;
      }
-     /**
-     .ImageBoxes{
-       border:1 px solid black;
-       width:25%;
-       float:left;
-       margin:2%;
-
-
-
-     }
-     */
+     
+   
+     
      .float-container{
    
       position:relative;
@@ -255,3 +247,71 @@ margin-left:450px;
 
 }
 
+/**css for profile page **/
+.ProfilePic{
+  height:250px;
+  width:250px;
+  position:relative;
+  border:5px solid whitesmoke;
+  border-radius:50%;
+  background:url(../homepagephotos/userPic01.PNG);
+  background-size:100% 100%;
+  margin:100px auto;/**margin-left**/
+  margin-top:-20px;
+  overflow:hidden;
+  
+}
+/**changing the position of Choose file option**/
+.my_file{
+ position:absolute;
+ bottom:0;
+ outline:none;
+ color:transparent;
+ width:100%;
+ box-sizing:border-box;
+ padding:15px 80px;
+ cursor: pointer;
+ transition:0.5s;
+
+}
+ /**Styling button section for profile page**/
+ .Button2{
+  
+    padding:2%;
+    border:none;
+    font-size:2 rem;
+    background-color:hsl(286, 100%, 60%);
+    color:whitesmoke;
+    border-radius:50px;
+    
+    
+ }
+ .Button2:hover{
+
+background-color: cornflowerblue;
+
+
+
+ }
+ /**styling container for buttons of profile page**/
+ .container2{
+margin-left:550px;
+margin-top:80px;
+
+
+
+ }
+ .container_info{
+   margin-left: 480px;
+   margin-top:-20px;
+
+
+ }
+ h3{
+  color:#ff33ff;
+  font-size:8 rem;
+  font-weight:bold;
+
+
+
+ }
