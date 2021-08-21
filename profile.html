@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="US-en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="This is a web based food delivery system">
+    <meta name="keywords" content="fooddelight,FOODDELIGHT,Food delight,FOOD DElIGHT,Restaurant,restaurant,web based restaurant">
+    <link  rel="stylesheet" href="css\style.css">
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">  
+  
+     <title>Profile</title>
+     <style>
+                input[type=text] {
+        width: 40%;
+        padding: 5px 8px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px rgb(128, 0, 128);
+        border-radius: 4px;
+        background-color: #9e3cbc;
+        color: white;
+}
+
+input[type=email] {
+        width: 40%;
+        padding: 5px 8px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px rgb(128, 0, 128);
+        border-radius: 4px;
+        background-color: #9e3cbc;
+        color: white;
+}
+
+input[type=number] {
+        width: 40%;
+        padding: 5px 8px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px rgb(128, 0, 128);
+        border-radius: 4px;
+        background-color: #9e3cbc;
+        color: white;
+}
+input[type=tel] {
+        width: 40%;
+        padding: 5px 8px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px rgb(128, 0, 128);
+        border-radius: 4px;
+        background-color: #9e3cbc;
+        color: white;
+}
+
+
+         input:focus {
+         background-color: rgb(221, 173, 230);
+         }
+
+
+            textarea {
+  width: 40%;
+  height: 80px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px rgb(128, 0, 128);
+  border-radius: 4px;
+  background-color: rgb(221, 173, 230);
+  resize: none;
+}
+
+     </style>
+
+    </head>
+    <body>
+    <div class="container">
+        
+        <div id="Navigation-bar">
+ 
+            <div id="FoodDelightLogo">
+               <img src="homepagephotos\FinalLogo.PNG" alt="Food Delight Logo">
+              
+         
+            </div>
+            </div>
+            </div>   
+
+
+                <div class="NavigationLinks Text-Align ">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="categories.html">CATEGORIES</a></li>
+                        <li><a href="foods.html">FOODS</a></li>
+                        <li><a href="profile.html">PROFILE</a></li>
+                        <li><a href="contact.html">CONTACT </a></li>
+                        <li><a href="#">LOG OUT</a></li>
+
+                        </ul>
+                        <div class="clearfix"></div>
+                </div>
+
+         </div>
+         <div class="container">
+         <span class="text-align"><h2>User Profile</h2></span>
+
+         </div>
+                     
+            <div class="ProfilePic">                       
+               <input type="file" class="my_file ">
+                               
+                </div>
+                
+               <div class="container_info">
+                <div>
+
+              <label for="fullName"><h3>Customer Name</h3></label>
+              <input type="text" name="fullName" id="fullName" required>
+             </div>
+             <div>
+                 <label for="email"><h3>Email</h3></label>
+                 <input type="email" name="email" id="email" required>
+             </div>
+                <div>
+                    <label for="phone"><h3>Contact Number<h3></label>
+                    <input type="tel" name="phone" id="phone" required>
+
+                </div>
+                <div> 
+                    <label for="ID_Num" ><h3>NID No.</h3></label>
+                    <input type="text" name="ID_No" id="ID_No" pattern="[0-9]{10}" required>
+                </div>
+                <div  >
+
+                    <div><label for="address"><h3>Address</h3></label></div>
+              
+                      <textarea cols="5" rows="5"></textarea>
+                      
+                  </div>
+                  </div>
+                  <!--Save,update,delete section starts-->
+                
+                  <div class="container2">
+
+                    <input type="submit" value="Save" class="Button2">
+                 
+                  <span style="margin-left:10px"  ><input type="button" value="Update" class="Button2"></span>
+                  <span style="margin-left:10px"><input type="button" value="Delete" class="Button2"></span>
+                </div>
+                
+                <!--save,update,delete section ends-->
+                  <!--Social media section starts from here-->
+                <div class ="container">
+                    <div class="SocialMedia">
+                        <h2 class="text-align">Follow Us</h2>
+                        <ul> 
+                            <div class="SocialMediaListType">
+                            <div class="text-align">
+                             
+                            <li><a href="#"><img src="https://img.icons8.com/color/48/fa314a/facebook-circled--v1.png"/></a></li>
+                            <li><a href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"/></a></li>
+                            <li><a href="#"><img src="https://img.icons8.com/color/48/000000/twitter--v2.png"/></a></li>
+                       
+                          </div>
+                            </div>
+                        
+      
+                          </ul>
+                
+          </div>
+          </div>
+          <!--social media section ends here-->
+         <!--footer section starts-->
+      
+          <div class="container">
+      
+            <div id="footer">
+                <div class="text-align">
+                Copyright &copy;2021 Rownita Tasneem      
+      
+                </div>
+      
+                </div>
+                <!--footer section ends-->
+
+            
+             
+</body>
+</html>
+     
+
