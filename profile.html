@@ -12,7 +12,7 @@
      <title>Profile</title>
      <style>                                  
                 input[type=text] {
-        width: 40%;
+        width: 60%;
         padding: 5px 8px;
         margin: 8px 0;
         box-sizing: border-box;
@@ -23,7 +23,7 @@
 }
 
 input[type=email] {
-        width: 40%;
+        width: 60%;
         padding: 5px 8px;
         margin: 8px 0;
         box-sizing: border-box;
@@ -34,7 +34,7 @@ input[type=email] {
 }
 
 input[type=number] {
-        width: 40%;
+        width: 60%;
         padding: 5px 8px;
         margin: 8px 0;
         box-sizing: border-box;
@@ -44,7 +44,7 @@ input[type=number] {
         color:black;
 }
 input[type=tel] {
-        width: 40%;
+        width: 60%;
         padding: 5px 8px;
         margin: 8px 0;
         box-sizing: border-box;
@@ -62,7 +62,7 @@ input[type=tel] {
 
 
             textarea {
-  width: 40%;
+  width: 60%;
   height: 80px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -95,7 +95,7 @@ input[type=tel] {
                         <li><a href="categories.html">CATEGORIES</a></li>
                         <li><a href="foods.html">FOODS</a></li>
                         <li><a href="profile.html">PROFILE</a></li>
-                        <li><a href="#">CONTACT </a></li>
+                        <li><a href="contact.html">CONTACT </a></li>
                         <li><a href="#">DELIVERY</a></li>
                         <li><a href="#">LOG OUT</a></li>
 
@@ -133,6 +133,10 @@ input[type=tel] {
                     <label for="ID_Num" ><h3>NID No.</h3></label>
                     <input type="text" name="ID_No" id="ID_No" pattern="[0-9]{10}" required>
                 </div>
+                <div> 
+                  <label for="ID_Num" ><h3>Password.</h3></label>
+                  <input type="text" name="pass_No" id="pass_No" required>
+              </div>
                 <div  >
 
                     <div><label for="address"><h3>Address</h3></label></div>
@@ -144,7 +148,7 @@ input[type=tel] {
                   </form>
                   <!--Save,update,delete section starts-->
                 
-                  <div class="container2">
+                  <div class="container2"style="margin-left:550px;margin-top:100px;" >
 
                     <input type="submit" value="Save" class="Button2">
                  
@@ -191,5 +195,4 @@ input[type=tel] {
              
 </body>
 </html>
-     
 
