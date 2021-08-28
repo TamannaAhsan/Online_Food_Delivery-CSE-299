@@ -275,6 +275,7 @@ margin-left:450px;
 
 }
  /**Styling button section for profile page**/
+ 
  .Button2{
   
     padding:2%;
@@ -294,7 +295,7 @@ background-color: cornflowerblue;
 
  }
  /**styling container for buttons of profile page**/
- .container2{
+ .container3{
 margin-left:550px;
 margin-top:50px;
 
@@ -315,3 +316,17 @@ margin-top:50px;
 
 
  }
+ /**Styling for contact page**/
+
+.Contact{
+  background-image:url(../contactpagephotos/Restaurant.jpg);
+  height:790px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  width:1358px;
+  
+
+
+
+}
