@@ -1,3 +1,4 @@
+
 .container{
   
 
@@ -320,7 +321,8 @@ margin-top:50px;
 
 .Contact{
   background-image:url(../contactpagephotos/Restaurant.jpg);
-  height:700px;
+
+  height:800px;
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center;
@@ -329,4 +331,23 @@ margin-top:50px;
 
 
 
+}
+.container4{
+
+  background-color:white;
+}
+.food-search{
+  background-image: url(../homepagephotos/fastFood.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
 }
