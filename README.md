@@ -1,8 +1,8 @@
 # Online_Food_Delivery-CSE-299
 
-#  I have developed the pages for frontend such as Homepage,Categories,Foods,Profile,Order,Delivery,About.I have also done the necessary work for backend for delivery feature.
+##  I have developed the pages for frontend such as Homepage,Categories,Foods,Profile,Order,Delivery,About.I have also done the necessary work for backend for delivery feature.
 
-# Languages Used:HTML,CSS JAVASCRIPT,PHP
+## Languages Used:HTML,CSS JAVASCRIPT,PHP
 
 ## Purposes of these pages:
 ## index.php-It displays the outstanding categories,foods, search bar and navigation links .
