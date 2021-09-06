@@ -8,9 +8,9 @@
 ## index.php-It displays the outstanding categories,foods, search bar and navigation links .
 ## categories.php -It displays the categories of foods.
 ## foods.php-It displays the foods to be ordered by customer.
-## profile.php-It shows the profile of the customer.The customer can save,update or delete their profile.
+## profile.php-It shows the profile of the customer.The customer can save,update or delete his/her profile.
 ## order.php- The customer could order food by providing email address,name,phone no. etc.
-## delivery.php-The customer could give their name and location through search from google map would go into the database table of map.But I don't have billing account in Google for API key  .So,this map does not function properly.But I have implemented the feature so that it could work for a real website if API key works and the real website has billing account
+## delivery.php-The customer could give their name and location through search from google map would go into the database table of map.But I don't have billing account in Google for API key  .So,this map does not function properly.But I have implemented the feature so that it could work for a real website if API key works and the real website has billing account.
 ## about.php- This page shows the necessary information related to our Food-Delight website.
 
 
