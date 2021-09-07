@@ -81,6 +81,11 @@
     </div>
     </div>
 </form>
+<div class="container2" style="margin-left:550px;margin-top:100px;">
+    <a href="<?php echo SITE; ?>update-account.php?id=<?php echo $id; ?>" class="Button2">Update</a>
+    <a href="<?php echo SITE; ?>delete-account.php?id=<?php echo $id; ?>" class="Button2">Delete</a>
+
+</div>
 <!--Save,update,delete section starts-->
 
 <div class="container2" style="margin-left:550px;margin-top:100px;">
