@@ -10,6 +10,11 @@
 </head>
 
 <body>
+    <?php
+    if (isset($_SESSION['delete'])) {
+        echo $_SESSION['delete']; //Display Session Message
+        unset($_SESSION['delete']);
+    }?>
 
 
     <div class="login-page">
@@ -31,6 +36,19 @@
                 <form action="" method="POST">
                     <div class="login-form ">
                         <h3 align="center">Login</h3>
+                        <?php
+        if (isset($_SESSION['register'])) {
+            echo $_SESSION['register']; //Display Session Message
+            unset($_SESSION['register']); //Removing Session Message
+        if (isset($_SESSION['login-user'])) {
+            echo $_SESSION['login-user']; //Display Session Message
+            unset($_SESSION['login-user']); //Removing Session Message
+        }
+            if (isset($_SESSION['no-login-user'])) {
+                echo $_SESSION['no-login-user']; //Display Session Message
+            unset($_SESSION['no-login-user']); //Removing Session Message
+            }
+        }?>
                         <div class="form-group">
                             <input type="text" name="customer_name" placeholder="Name" class="form-control">
                         </div>
@@ -49,18 +67,10 @@
                     <div class="register-form form-hidden">
                         <h3 align="center">Register</h3>
                         <?php
-        if (isset($_SESSION['register'])) {
-            echo $_SESSION['register']; //Display Session Message
-            unset($_SESSION['register']); //Removing Session Message
-        if (isset($_SESSION['login-user'])) {
-            echo $_SESSION['login-user']; //Display Session Message
-            unset($_SESSION['login-user']); //Removing Session Message
-        }
-            if (isset($_SESSION['no-login-user'])) {
-                echo $_SESSION['no-login-user']; //Display Session Message
-            unset($_SESSION['no-login-user']); //Removing Session Message
-            }
-        }?>
+       
+//Removing Session Message?>
+
+
                         <div class="form-group">
                             <div class="form-group">
                                 <input type="text" name="customer_name" placeholder="Name" class="form-control">
@@ -179,3 +189,4 @@
         }
     }
 ?>
+           
