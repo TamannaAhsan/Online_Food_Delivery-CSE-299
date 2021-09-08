@@ -35,7 +35,7 @@
                         <li><a href="order.php">ORDER</a></li>
                         <li><a href="profile.php">PROFILE</a></li>
                        <li><a href="delivery.php">DELIVERY</a></li>
-                       <li><a href="about.php">ABOUT </a></li>
+                       <li><a href="about.php">ABOUT</a></li>
                         <li><a href="#">LOG OUT</a></li>
 
                         </ul>
@@ -70,37 +70,16 @@
 
 
                           </div>
-                          <div class="form-group">
+                          
 
-                            <label for="gender">Gender</label>
-
-                          <div>
-                         <label for="male" class="radio-inline">
-                         <input type="radio" name="gender" id="male" name="gender">
-                         Male
-
-                         </label>
-                         <label for="female" class="radio-inline">
-                         <input type="radio" name="gender" id="female" name="gender">
-                         Female
-
-                         </label>
-                         <label for="others" class="radio-inline">
-                         <input type="radio" name="gender" id="others" name="gender">
-                         Others
-
-                         </label>
-
-                          </div>
-
-                          </div>
+                          
                            <div class="form-group">
                            <label for="email" >Email</label>
                            <input type="email" class="form-control" id="email" name="email">
 
                            </div>
                            <div class="form-group">
-                            <label for="locatiom" >Location </label>
+                            <label for="location" >Location </label>
                            <input type="text" class="form-control" id="location" name="location"/>
 
                            </div>
@@ -136,13 +115,18 @@
     </div>
 
 
-                 <div class="panel-footer text-right" style="margin-left:150px;">
-            <small>&copy; Rownita Tasneem</small>
-          </div>
-        </div>
-      </div>
+    <div class="container">
+
+<div id="footer">
+    <div class="text-align">
+    Copyright &copy;2021 Rownita Tasneem      
+
     </div>
-  
- 
+
+    </div>
+  </div>
+      
+
+
 </body>
 </html>
