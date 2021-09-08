@@ -7,72 +7,12 @@
     <meta name="description" content="This is a web based food delivery system">
     <meta name="keywords" content="fooddelight,FOODDELIGHT,Food delight,FOOD DElIGHT,Restaurant,restaurant,web based restaurant">
     <link  rel="stylesheet" href="css\style.css">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">  
   
      <title>Profile</title>
-     <style>                                  
-                input[type=text] {
-        width: 60%;
-        padding: 5px 8px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 2px whitesmoke;
-        border-radius: 4px;
-        background-color:whitesmoke;
-        color:black;
-}
-
-input[type=email] {
-        width: 60%;
-        padding: 5px 8px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 2px whitesmoke;
-        border-radius: 4px;
-        background-color:whitesmoke;
-        color:black;
-}
-
-input[type=number] {
-        width: 60%;
-        padding: 5px 8px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 2px whitesmoke;
-        border-radius: 4px;
-        background-color:whitesmoke;
-        color:black;
-}
-input[type=tel] {
-        width: 60%;
-        padding: 5px 8px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 2px whitesmoke;
-        border-radius: 4px;
-        background-color:whitesmoke;
-        color:black;
-}
-
-
-         input:focus {
-         background-color:rgb(213, 255, 248);
-
-         }
-
-
-            textarea {
-  width: 60%;
-  height: 80px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px whitesmoke;
-  border-radius: 4px;
-  background-color: whitesmoke;
-  resize: none;
-}
-
-     </style>
+   
 
     </head>
     <body>
@@ -96,7 +36,7 @@ input[type=tel] {
                         <li><a href="foods.php">FOODS</a></li>
                         <li><a href="order.php">ORDER</a></li>
                         <li><a href="profile.php">PROFILE</a></li>
-                        <li><a href="about.php">ABOUT </a></li>
+                        <li><a href="contact.php">CONTACT </a></li>
                         <li><a href="delivery.php">DELIVERY</a></li>
                         <li><a href="#">LOG OUT</a></li>
 
@@ -110,49 +50,58 @@ input[type=tel] {
 
          </div>
                      
-            <div class="ProfilePic" style="margin-left:250px;">                       
+            <div class="ProfilePic" style="margin-left:220px;">                       
                <input type="file" class="my_file ">
                                
                 </div>
-                <form action=>
-               <div class="container_info"  style="margin-top:-360px;margin-left:800px;">
-                <div>
+              <div   style="margin-left:800PX;margin-top:-300px;">
+                <div class="panel-body">
+                        <form action=' 'method="post">
+                          <div class="form-group col-xs-5">
 
-              <label for="fullName"><h3>Customer Name</h3></label>
-              <input type="text" name="fullName" id="fullName" required>
-             </div>
-             <div>
-                 <label for="email"><h3>Email</h3></label>
-                 <input type="email" name="email" id="email" required>
-             </div>
-                <div>
-                    <label for="phone"><h3>Contact Number<h3></label>
-                    <input type="tel" name="phone" id="phone" required>
+                            <label for="firstName">Customer Name </label>
 
-                </div>
-                
-                <div> 
-                  <label for="ID_Num" ><h3>Password.</h3></label>
-                  <input type="password" name="pass_No" id="pass_No" required>
-              </div>
-                <div  >
+                            <input type="text" class="form-control" id="firstName" name="firstName" style="width:70%" required/>
 
-                    <div><label for="address"><h3>Address</h3></label></div>
-              
-                      <textarea cols="5" rows="5"></textarea>
-                      
-                  </div>
-                  </div>
+
+                          </div>
+                        
+                        
+                           <div class="form-group">
+                           <label for="email" >Email</label>
+                           <input type="email" class="form-control" id="email" name="email" style="width:70%" required>
+
+                           </div>
+                           <div class="form-group">
+                            <label for="location" >Address </label>
+                           <input type="text" class="form-control" id="location" name="location" style="width:70%" required/>
+
+                           </div>
+                           <div class="form-group col-xs-5">
+
+                             <label for="pass_No">Password</label>
+
+                              <input type="password" class="form-control" id="pass_No" name="pass_No" style="width:70%" required/>
+
+
+                              </div>
+            
+                           <div class="form-group">
+                               <label for="phone">Phone Number </label>
+                            <input type="tel" class="form-control" id="phone" name="phone" style="width:70%" required/>
+
+                           </div>
+                        
+
+                         <input type="Submit" class="btn btn-primary">
+                        
+                         <input type="button"  value="Delete"class="btn btn-primary">
+                        </form>
+                 </div>
+                 </div>
                   </form>
-                  <!--Save,update,delete section starts-->
-                
-                  <div class="container2"style="margin-left:550px;margin-top:100px;" >
-
-                    <input type="submit" value="Save" class="Button2">
-                 
-                  <span style="margin-left:10px"  ><input type="button" value="Update" class="Button2"></span>
-                  <span style="margin-left:10px"><input type="button" value="Delete" class="Button2"></span>
-                </div>
+</div></div>
+               
                 
                 <!--save,update,delete section ends-->
                   <!--Social media section starts from here-->
