@@ -38,7 +38,7 @@
                         <li><a href="foods.php">FOODS</a></li>
                         <li><a href="order.php">ORDER</a></li>
                         <li><a href="profile.php">PROFILE</a></li>
-                        <li><a href="#">DELIVERY</a></li>
+                        <li><a href="delivery.php">DELIVERY</a></li>
                         <li><a href="about.php">ABOUT</a></li>
                         <li><a href="#">LOG OUT</a></li>
 
