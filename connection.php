@@ -1,10 +1,11 @@
 <?php
 $firstName=$_POST['firstName'];
 $lastName=$_POST['lastName'];
-$gender=$_POST['gender'];
+
 $email=$_POST['email'];
 $location=$_POST['location'];
 $number=$_POST['number'];
+$message=$_POST['message'];
 
 
 //connection code
@@ -22,8 +23,8 @@ if($conn->connect_error){
 else{
 
     //echo"connected";
-    $stmt=$conn->prepare("insert into delivery (firstName,lastName,gender,email,location,number) values(?,?,?,?,?,?)");
-    $stmt->bind_param("sssssi",$firstName,$lastName,$gender,$email,$location,$number);
+    $stmt=$conn->prepare("insert into delivery (firstName,lastName,email,location,number,message) values(?,?,?,?,?,?)");
+    $stmt->bind_param("ssssis",$firstName,$lastName,$email,$location,$number,$message);
     $stmt->execute();
     echo"Submitted Successfully";
     $stmt->close();
