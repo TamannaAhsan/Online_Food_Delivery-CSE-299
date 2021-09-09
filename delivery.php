@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -53,7 +55,7 @@
 
                    </div>
                     <div class="panel-body">
-                        <form action="connection.php" method="post">
+                        <form  action="connection.php" method="post">
                           <div class="form-group">
 
                             <label for="firstName">First Name </label>
@@ -85,8 +87,14 @@
                            </div>
                            <div class="form-group">
                                <label for="number">Phone Number </label>
-                            <input type="number" class="form-control" id="number" name="number"/>
+                            <input type="tel" class="form-control" id="number" name="number"/>
 
+                           </div>
+                           <div class="form-group">
+                            <label for="message" >Your Message</label>
+                            
+                          <textarea cols="4" rows="4" class="form-control" id="message" name="message" style="width:100%;height:100%;" ></textarea>
+    
                            </div>
 
                          <input type="submit" class="btn btn-primary">
