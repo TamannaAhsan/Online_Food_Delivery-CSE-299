@@ -53,30 +53,34 @@
          <div class="Cuisines">
   
             <h2 class="text-align" style="margin-bottom:-200px;" ><a href="categories.php">Categories</a></h2>
-           
-          <div class="image_style">
-               <img src= "homepagephotos\BangladeshiCuisine.jpg"  alt="Bangladeshi Cuisine" class="ResponsiveImage" style="width:200px;height:200px;border-radius: 50px;margin-left:120px;" >
-             
-          
-                   <img src= "homepagephotos\Italian-Cuisine.jpg"  alt="Italian Cuisine" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;">
         
-                       <img src= "homepagephotos\ChineseCuisine.jpg"  alt="Chinese Cuisine" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
-                       <img src= "homepagephotos\American-foods.jpg"  alt="American Cuisine" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
-              </div>
-              <div class="styling_text">
-                <pre>
-              <i style="font-size:30px ;color:black;margin-top:10px;">  Bangladeshi          Italian             Chinese            American  </i>
-               </pre>
-            </div>
-             
-              <div class="image_style"  style="margin-top:-30px;">
-                <img src= "foodrecipies/Iranian.jpeg"  alt="iranian Cuisine" class="ResponsiveImage" style="width:200px;height:200px;border-radius: 50px;margin-left:120px;" >
+            <div class="image_style">
+            
+            <img src= "foodrecipies/tacos.jpg"  alt="category01" class="ResponsiveImage" style="width:200px;height:200px;border-radius: 50px;margin-left:120px;" >
+                   
+                     
+            <img src= "foodrecipies/super.jpg"  alt="category02" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;">
+    
+                <img src= "foodrecipies/hotcrispy.jpg"  alt="category03" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
+               
+                <img src= "foodrecipies/zinger.jpg"  alt="category04" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
+                </div>
+                
+                <div class="image_style" style="margin-top:5px;margin-left:9px;">
+                <img src= "foodrecipies/category09.jpg"  alt="category03" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
+                <img src= "foodrecipies/category10.jpg"  alt="category04" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
+                
               
-               <img src= "foodrecipies/Swedish.jpg"  alt="Swedish Cuisine" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;">
-         
-                        <img src= "foodrecipies/Mexican-Cuisine.jpg"  alt="Mexican Cuisine" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:120px;" >
-                        <img src= "foodrecipies/thai_cuisine.jpg"  alt="Thai Cuisine" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:120px;" >
-               </div>
+                  <img src= "foodrecipies/category07.jpg"  alt="category03" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
+             
+                  <img src= "foodrecipies/category08.jpg"  alt="category04" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
+                 
+               
+                 
+              </div>
+                        
+                         
+             
                        
                        
                <div class="clearfix"></div> <!--Stopping float of boxes-->
@@ -84,11 +88,6 @@
            </div>
            </div>
         
-           <div class="styling_text">
-            <pre>
-          <i style="font-size:30px ;color:black;margin-top:10px;">  Iranian             Swedish                Mexican              Thai  </i>
-           </pre>
-        </div>
          
 
          <div class ="container">
