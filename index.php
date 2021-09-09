@@ -8,7 +8,7 @@
     <meta name="description" content="This is a web based food delivery system">
     <meta name="keywords" content="fooddelight,FOODDELIGHT,Food delight,FOOD DElIGHT,Restaurant,restaurant,web based restaurant">
     <link  rel="stylesheet" href="css\style.css"   />
-
+    
      
 
     <title>Food Delight</title>
@@ -74,30 +74,28 @@
         <div class="Cuisines">
   
              <h2 class="text-align" style="margin-bottom:-200px;" ><a href="categories.php">Outstanding Categories</a></h2>
-            
-           <div class="image_style">
-                <img src= "homepagephotos\BangladeshiCuisine.jpg"  alt="Bangladeshi Cuisine" class="ResponsiveImage" style="width:200px;height:200px;border-radius: 50px;" >
-              
-           
-                    <img src= "homepagephotos\Italian-Cuisine.jpg"  alt="Italian Cuisine" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:83px;">
-         
-                        <img src= "homepagephotos\ChineseCuisine.jpg"  alt="Chinese Cuisine" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:83px;" >
-                        <img src= "homepagephotos\American-foods.jpg"  alt="American Cuisine" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:83px;" >
-               </div>
-                       
+             <div class="image_style">
+                 
+                 <img src= "foodrecipies/category01.png"  alt="category01" class="ResponsiveImage" style="width:200px;height:200px;border-radius: 50px;margin-left:120px;" >
+                
+                  
+                     <img src= "foodrecipies/category02.png"  alt="category02" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;">
+          
+                         <img src= "foodrecipies/category03.png"  alt="category03" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
                         
+                         <img src= "foodrecipies/category04.png"  alt="category04" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
+                         <img src= "foodrecipies/category05.png"  alt="category03" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
+                         <img src= "foodrecipies/category06.png"  alt="category04" class="ResponsiveImage"  style="width:200px;height:200px;border-radius:50px;margin-left:100px;" >
+                     </div>
+                
+                        
+                            
                 <div class="clearfix"></div> <!--Stopping float of boxes-->
 
             </div>
             </div>
            
-            <div class="styling_text">
-                <pre>
-              <i style="font-size:30px ;color:black">Bangladeshi        Italian           Chinese           American  </i>
-               </pre>
-            </div>
-            </section>
-            <section>
+        
             <div class="container">
 
              <h2 class="text-align"><a href="foods.html">Explore Menu </a></h1>
