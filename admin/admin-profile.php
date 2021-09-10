@@ -84,7 +84,7 @@
         <br><br>
         <div align="left" cellpadding="50%" cellspacing="10%">
             <tr>
-                <a href="<?php echo SITE; ?>admin/update-admin.php?id=<?php echo $id; ?>" class="btn-detele">Edit</a>
+                <a href="<?php echo SITE; ?>admin/edit-admin.php?id=<?php echo $id; ?>" class="btn-detele">Edit</a>
                 <a href="<?php echo SITE; ?>admin/delete-account.php?id=<?php echo $id; ?>"
                     class="btn-detele">Delete</a>
                 <a href="<?php echo SITE; ?>admin/update-password.php?id=<?php echo $id; ?>" class="btn-detele">Change
