@@ -67,12 +67,25 @@ if (isset($_GET['food_id'])) {
 
                 <input type="hidden" name="food" value="<?php echo $title; ?>">
 
-                <p class="food-price"><?php echo $price; ?></p>
-                <input type="hidden" name="price" value="<?php echo $price; ?>">
+                <p class="food-price" id='showPrice'></p>
+                <input type="hidden" name="price" value="<?php echo $price; ?>" id="price">
                 <div class="order-label">Quantity</div>
-                <input type="number" name="qty" class="input-responsive" value="1" required>
+                <input type="number" name="qty" class="input-responsive" value="1" required id='quantity'>
             </div>
+            <!-- java script code for price calculation -->
+            <script>
+            price = document.getElementById("price");
+            showPrice = document.getElementById("showPrice");
+            quantity = document.getElementById("quantity");
+            showPrice.innerHTML = price.value;
+            quantity.onchange = function() {
+                calPrice()
+            };
 
+            function calPrice() {
+                showPrice.innerHTML = price.value * quantity.value
+            }
+            </script>
 
         </fieldset>
 

@@ -14,17 +14,6 @@
 
 <body>
 
-
-    <div class="container">
-        <span class="text-align">
-            <h2>User Profile</h2>
-        </span>
-
-    </div>
-
-    <div class="ProfilePic" style="margin-left:220px;">
-
-    </div>
     <?php
 
               $customer_name = $_SESSION["user"];
@@ -50,57 +39,53 @@
         }
     }
  ?>
-    <div style="margin-left:800PX;margin-top:-300px;">
-        <div class="panel-body">
-            <form action="" method="POST">
-
-                <div class="form-group col-xs-5">
-
-                    <label for="firstName"><b>Name</b> </label>
 
 
-                    <input type="text" class="form-control" name="customer_name" value="<?php echo $customer_name; ?>">
+    <div class="container">
+        <table width="800" cellspacing="">
+            <tr>
+                <td width="50%">
+                    <h2 style="text-align:center">User Profile</h2>
+                    <div class="ProfilePic" style="margin-top:20px"></div>
+                </td>
+                <td valign="middle" width="50%">
+                    <table>
+                        <tr>
+                            <th>Id</th>
+                            <td><?php echo $row['id']; ?></td>
+                        </tr>
+                        <tr>
+                            <th>Name</th>
+                            <td><?php echo $customer_name; ?></td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td><?php echo $customer_email; ?></td>
+                        </tr>
+                        <tr>
+                            <th>Phone Number</th>
+                            <td><?php echo $customer_contact; ?></td>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <td><?php echo $customer_address; ?></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <a href="<?php echo SITE; ?>edit-profile.php?id=<?php echo $id; ?>"
+                                    class="Button2">Edit</a>
+                                <a href="<?php echo SITE; ?>delete-account.php?id=<?php echo $id; ?>"
+                                    class="Button2">Delete</a>
 
-                </div>
-                <div class="form-group">
-                    <label for="id"><b>Id</b></label>
-                    <input type="text" class="form-control" name="id" value="<?php echo $id; ?>">
+                            </td>
 
-                </div>
-
-
-                <div class="form-group">
-                    <label for="email"><b>Email</b></label>
-                    <input type="text" class="form-control" name="customer_email"
-                        value="<?php echo $customer_email; ?>">
-
-                </div>
-
-                <div class="form-group">
-                    <label for="phone"><b>Phone Number</b> </label>
-                    <input type="text" class="form-control" name="customer_contact"
-                        value="<?php echo $customer_contact; ?>">
-                </div>
-                <div class="form-group">
-                    <label for="location"><b>Address</b> </label>
-                    <input type="text" class="form-control" name="customer_address"
-                        value="<?php echo $customer_address; ?>">
-
-
-                </div>
-
-                <a href="<?php echo SITE; ?>update-account.php?id=<?php echo $id; ?>" class="Button2">Update</a>
-                <a href="<?php echo SITE; ?>delete-account.php?id=<?php echo $id; ?>" class="Button2">Delete</a>
-
-
-            </form>
-        </div>
-    </div>
-    </form>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
     </div>
     </div>
-
-
     <!--save,update,delete section ends-->
     <!--Social media section starts from here-->
 
