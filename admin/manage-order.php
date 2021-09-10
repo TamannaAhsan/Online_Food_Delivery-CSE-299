@@ -86,7 +86,7 @@
 
                 <td>
                     <a href="<?php echo SITE; ?>admin/update-order.php?id=<?php echo $id; ?>"
-                        class="btn-update">Update</a>
+                        class="btn-update">Update</a> <br><br>
                     <a href="<?php echo SITE; ?>admin/delete-order.php?id=<?php echo $id; ?>"
                         class="btn-detele">Delete</a>
 
