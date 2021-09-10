@@ -1,22 +1,31 @@
 <?php include('partials-front/menu.php'); ?>
 
-<title>Profile</title>
+<head>
 
-<link rel="stylesheet" href="./css/user-profile.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <title>Profile</title>
 
 
+</head>
+
+<body>
 
 
-<div class="container">
-    <span class="text-align">
-        <h2>User Profile</h2>
-    </span>
+    <div class="container">
+        <span class="text-align">
+            <h2>User Profile</h2>
+        </span>
 
-</div>
-<div class="ProfilePic" style="margin-left:250px;">
-</div>
+    </div>
 
-<?php
+    <div class="ProfilePic" style="margin-left:220px;">
+
+    </div>
+    <?php
 
               $customer_name = $_SESSION["user"];
              
@@ -41,55 +50,61 @@
         }
     }
  ?>
+    <div style="margin-left:800PX;margin-top:-300px;">
+        <div class="panel-body">
+            <form action="" method="POST">
 
-<form action="" method="POST">
-    <div class="container_info" style="margin-top:-360px;margin-left:800px;">
-        <div>
+                <div class="form-group col-xs-5">
 
-            <label for="Name">
-                <h3>Customer Name</h3>
-            </label>
-            <input type="text" name="customer_name" value="<?php echo $customer_name; ?>">
+                    <label for="firstName"><b>Name</b> </label>
+
+
+                    <input type="text" class="form-control" name="customer_name" value="<?php echo $customer_name; ?>">
+
+                </div>
+                <div class="form-group">
+                    <label for="id"><b>Id</b></label>
+                    <input type="text" class="form-control" name="id" value="<?php echo $id; ?>">
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" class="form-control" name="customer_email"
+                        value="<?php echo $customer_email; ?>">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="phone"><b>Phone Number</b> </label>
+                    <input type="text" class="form-control" name="customer_contact"
+                        value="<?php echo $customer_contact; ?>">
+                </div>
+                <div class="form-group">
+                    <label for="location"><b>Address</b> </label>
+                    <input type="text" class="form-control" name="customer_address"
+                        value="<?php echo $customer_address; ?>">
+
+
+                </div>
+
+                <a href="<?php echo SITE; ?>update-account.php?id=<?php echo $id; ?>" class="Button2">Update</a>
+                <a href="<?php echo SITE; ?>delete-account.php?id=<?php echo $id; ?>" class="Button2">Delete</a>
+
+
+            </form>
         </div>
-        <div>
-
-            <label for="ID">
-                <h3>Customer ID</h3>
-            </label>
-            <input type="text" name="id" value="<?php echo $id; ?>">
-        </div>
-        <div>
-            <label for="Email">
-                <h3>Customer Email</h3>
-            </label>
-            <input type="text" name="customer_email" value="<?php echo $customer_email; ?>">
-        </div>
-        <div>
-            <label for="Phone">
-                <h3>Contact Number<h3>
-            </label>
-            <input type="text" name="customer_contact" value="<?php echo $customer_contact; ?>">
-
-        </div>
-
-
-        <div><label for="Address">
-                <h3>Customer Address</h3>
-            </label></div>
-        <input type="text" name="customer_address" value="<?php echo $customer_address; ?>">
-
+    </div>
+    </form>
     </div>
     </div>
-</form>
-<div class="container2" style="margin-left:550px;margin-top:100px;">
-    <a href="<?php echo SITE; ?>update-account.php?id=<?php echo $id; ?>" class="Button2">Update</a>
-    <a href="<?php echo SITE; ?>delete-account.php?id=<?php echo $id; ?>" class="Button2">Delete</a>
 
-</div>
-<!--Save,update,delete section starts-->
 
-<div class="container2" style="margin-left:550px;margin-top:100px;">
-</div>
+    <!--save,update,delete section ends-->
+    <!--Social media section starts from here-->
 
-<!--save,update,delete section ends-->
-<?php include('partials-front/footer.php'); ?>
+    <!--social media section ends here-->
+    <!--footer section starts-->
+
+    <?php include('partials-front/footer.php'); ?>
