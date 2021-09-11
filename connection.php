@@ -26,7 +26,7 @@ else{
     $stmt=$conn->prepare("insert into delivery (firstName,lastName,email,location,number,message) values(?,?,?,?,?,?)");
     $stmt->bind_param("ssssis",$firstName,$lastName,$email,$location,$number,$message);
     $stmt->execute();
-    echo"Submitted Successfully";
+    echo"<h1>You will get your delivery soon....</h1>";
     $stmt->close();
     $conn->close();
 }
