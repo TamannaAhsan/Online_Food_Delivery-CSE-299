@@ -97,7 +97,7 @@
     
                            </div>
 
-                         <input type="submit" class="btn btn-primary">
+                         <input type="submit" class="btn btn-primary" value="Get Delivery">
 
                         </form>
                  </div>
