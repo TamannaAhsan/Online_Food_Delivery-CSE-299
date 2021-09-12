@@ -45,7 +45,9 @@
                 </div>
 
          </div>
-         <div style="margin-left:500px">
+                   
+
+                    <div style="margin-left:500px">
          <div class="container">
              <div class="row col-md-6 col-md-offset-3">
                  <div class="panel panel-primary">
@@ -81,9 +83,70 @@
 
                            </div>
                            <div class="form-group">
-                            <label for="location" >Location </label>
-                           <input type="text" class="form-control" id="location" name="location"/>
+                           <label for="houseno" >House#</label>
+                           <input type="number" class="form-control" id="houseno" name="houseno" style="width:40%;height:2%;">
+                           <label for="roadno" >Road#</label>
+                           <input type="number" class="form-control" id="roadno" name="roadno" style="width:40%;height:2%;">
+                           
+                           <label for="sector" >Sector#</label>
+                           <input type="number" class="form-control" id="sector" name="sector" style="width:40%;height:2%;">
+                           <label for="block" >Block</label>
+                           <select name="block" class="form-control" id="block" name="block" style="width:40%;height:2%;">
+                            <option value="A" class="form-control" id="block" name="block" >A</option>
+                            <option value="B" class="form-control" id="block" name="block" >B</option>
+                            <option value="C" class="form-control" id="block" name="block" >C</option>
+                            <option value="D" class="form-control" id="block" name="block" >D</option>
+                            <option value="E" class="form-control" id="block" name="block" >E</option>
+                            <option value="F" class="form-control" id="block" name="block" >F</option>
+                            <option value="G" class="form-control" id="block" name="block" >G</option>
+                            <option value="H" class="form-control" id="block" name="block" >H</option>
+                            <option value="I" class="form-control" id="block" name="block" >I</option>
+                            <option value="J" class="form-control" id="block" name="block" >J</option>
+                            <option value="K" class="form-control" id="block" name="block" >K</option>
+                            <option value="L" class="form-control" id="block" name="block" >L</option>
+                            <option value="M" class="form-control" id="block" name="block" >M</option>
+                            <option value="N" class="form-control" id="block" name="block" >N</option>
+                            <option value="O" class="form-control" id="block" name="block" >O</option>
+                            <option value="P" class="form-control" id="block" name="block" >P</option>
+                            <option value="Q" class="form-control" id="block" name="block" >Q</option>
+                            <option value="R" class="form-control" id="block" name="block" >R</option>
+                            <option value="S" class="form-control" id="block" name="block" >S</option>
+                            <option value="T" class="form-control" id="block" name="block" >T</option>
+                            <option value="U" class="form-control" id="block" name="block" >U</option>
+                            <option value="V" class="form-control" id="block" name="block" >V</option>
+                            <option value="W" class="form-control" id="block" name="block" >W</option>
+                            <option value="X" class="form-control" id="block" name="block" >X</option>
+                            <option value="Y" class="form-control" id="block" name="block" >Y</option>
+                            <option value="Z" class="form-control" id="block" name="block" >Z</option>
+                             
+                             
+                        
+     
 
+                            </select>
+                          
+                           <label for="area" >Area Name</label>
+                           <input type="text" class="form-control" id="area" name="area" style="width:40%;height:2%;"> 
+                           <label for="postalcode" >Postal Code</label>
+                           <input type="number" class="form-control" id="postalcode" name="postalcode" style="width:40%;height:2%;">
+                            <label for="city"  >City </label>
+                          
+                            <select name="city" class="form-control" id="road" name="road" style="width:40%;height:2%;">
+                            <option value="Dhaka" class="form-control" id="city" name="city" >Dhaka</option>
+                            <option value="Rajshahi" class="form-control" id="city" name="city">Rajshahi</option>
+                            <option value="Chittagong" class="form-control" id="city" name="city">Chittagong</option>
+                            <option value="Khulna" class="form-control" id="city" name="city">Khulna</option>
+                            <option value="Sylhet" class="form-control" id="city" name="city">Sylhet</option>
+                            <option value="Rajshahi" class="form-control" id="city" name="city">Rajshahi</option>
+                            <option value="Barisal" class="form-control" id="city" name="city">Barisal</option>
+                            <option value="Rangpur" class="form-control" id="city" name="city">Rangpur</option>
+                            <option value="Comilla" class="form-control" id="city" name="city">Comilla</option>
+                            <option value="Narayanganj" class="form-control" id="city" name="city">Narayanganj</option>
+                        
+     
+
+                            </select>
+                           
                            </div>
                            <div class="form-group">
                                <label for="number">Phone Number </label>
