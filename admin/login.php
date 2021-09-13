@@ -1,17 +1,19 @@
 <?php include('../config/constants.php') ?>
-<!DOCTYPE html>
-<html >
+<html>
+
 <head>
-    
     <title>Admin Login</title>
     <link rel="stylesheet" href="../css/login.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Sign in</title>
 </head>
 
 <body>
-
-    <br><br>
-    <?php
+    <div class="main">
+        <h2 class="sign" align="center">Administrator Login</h2>
+        <?php
         if (isset($_SESSION['login'])) {
             echo $_SESSION['login']; //Display Session Message
             unset($_SESSION['login']); //Removing Session Message
@@ -21,38 +23,29 @@
             echo $_SESSION['no-login-message']; //Display Session Message
             unset($_SESSION['no-login-message']); //Removing Session Message
         }
+         if (isset($_SESSION['delete-account'])) {
+            echo $_SESSION['delete-account'];
+            unset($_SESSION['delete-account']);
+                            }
+        
 
     ?>
-
-    <br><br>
-    <form action ="" method="POST" class="text-center">
-        <table width="30%" border="0" cellspacing="35" align="center">
-            <tr>
-                <td align="center"><img src="../admin-img/system-administrator.png" width="30%"> </td>
-            </tr>
-            
-            <tr>
-                <td align = "center" id="text"><h2>Administrator Login</h2></td>
-            </tr>
-            <tr>
-                <td><input type="text" name= "username" placeholder="Username" id="type"> </td>
-            </tr>
-            <tr>
-                <td><input type="password" name="password" placeholder="Enter Password" id="type"> </td>
-            </tr>
-            <tr>
-                <td align="center" ><input type="submit" name="submit" value=LOGIN id="btn"> </td>
-            </tr>
-
-            </table>
+        <form action="" method="POST" class="form1">
+            <input class="un " type="text" name="username" align="center" placeholder="Username">
+            <input class="pass" type="password" name="password" align="center" placeholder="Password">
+            <br>
+            <button class="submit" align="center" name="submit">LOGIN</button>
         </form>
 
-    </body>
+
+
+    </div>
+
+</body>
+
 </html>
-
 <?php
-
-    //Check whether the submit Button is clicked or not
+//Check whether the submit Button is clicked or not
     if (isset($_POST['submit'])) {
 
         //Process for login
