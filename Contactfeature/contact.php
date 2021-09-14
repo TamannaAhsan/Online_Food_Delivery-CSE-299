@@ -34,7 +34,7 @@
                         <li><a href="foods.php">FOODS</a></li>
                         <li><a href="order.php">ORDER</a></li>
                         <li><a href="profile.php">PROFILE</a></li>
-                       <li><a href="delivery.php">DELIVERY</a></li>
+                       <li><a href="location.php">LOCATION</a></li>
                        <li><a href="contact.php">CONTACT </a></li>
                         <li><a href="#">LOG OUT</a></li>
 
@@ -77,7 +77,7 @@
 
                            </div>
                            <div class="form-group">
-                            <label for="message" >Your Message</label>
+                            <label for="message" >Write a Review</label>
                             
                           <textarea cols="4" rows="4" class="form-control" id="message" name="message" style="width:200%;height:200%;" ></textarea>
     
