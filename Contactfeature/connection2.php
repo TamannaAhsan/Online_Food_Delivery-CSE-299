@@ -26,7 +26,7 @@ else{
     $stmt=$conn->prepare("insert into contact (fullName,email,number,message) values(?,?,?,?)");
     $stmt->bind_param("ssis",$fullName,$email,$number,$message);
     $stmt->execute();
-    echo"Send Successfully";
+    echo"<h1>Thanks for contacting with us...</h1>";
     $stmt->close();
     $conn->close();
 }
