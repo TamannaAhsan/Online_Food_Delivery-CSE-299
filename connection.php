@@ -31,7 +31,7 @@ if($conn->connect_error){
 else{
 
     //echo"connected";
-    $stmt=$conn->prepare("insert into delivery (firstName,lastName,email,number,message,houseno,roadno,sector,block,area,postalcode,city) values(?,?,?,?,?,?,?,?,?,?,?,?)");
+    $stmt=$conn->prepare("insert into delivery (firstName,lastName,email,number,message,houseno,roadno,sector,block,area,postalcode,city) values(?,?,?,?,?,?,?,?,?,?,?,?)");//this table delivery relates location feature
     $stmt->bind_param("sssisiiissis",$firstName,$lastName,$email,$number,$message,$houseno,$roadno,$sector,$block,$area,$postalcode,$city);
     $stmt->execute();
     echo"<h1>You will get your delivery soon....</h1>";
