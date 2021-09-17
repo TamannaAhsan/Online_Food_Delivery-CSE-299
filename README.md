@@ -1,17 +1,18 @@
 # Online_Food_Delivery-CSE-299:Food Delight Website
 
-##  I have developed the pages for frontend such as Homepage,Categories,Foods,Profile,Order,Delivery,About.I have also done the necessary work for backend for delivery feature.
+##  I have developed the pages for frontend such as Homepage,Categories,Foods,Profile,Order,Location,Contact,About.I have also done the necessary work for backend for Location & Contact feature.
 
-## Languages Used:HTML,CSS JAVASCRIPT,PHP
+## Languages Used:HTML,CSS JAVASCRIPT,PHP,MySQL
 
 ## Purposes of these pages:
-## index.php-It displays the outstanding categories,foods, search bar and navigation links .
-## categories.php -It displays the categories of foods.
-## foods.php-It displays the foods to be ordered by customer.
-## profile.php-It shows the profile of the customer.The customer can save,update or delete his/her profile.
-## order.php- The customer could order food by providing email address,name,phone no. etc.
-## delivery.php-The customer could give their name and location through search from google map would go into the database table of map.But I don't have billing account in Google for API key  .So,this map does not function properly.But I have implemented the feature so that it could work for a real website if API key works and the real website has billing account.
-## about.php- This page shows the necessary information related to our Food-Delight website.
+## index.html-It displays the outstanding categories,foods, search bar and navigation links .
+## categories.html -It displays the categories of foods.
+## foods.html-It displays the foods to be ordered by customer.
+## profile.html-It shows the profile of the customer.The customer can save,update or delete his/her profile and they can also edit the profile related information.
+## order.html- The customer could order food by providing email address,name,phone no. etc.
+## location.php-Customers could give their name and location through this page and they can also write location related messages.
+## contact.php- Customers could give contact related information and they can also write reviews. 
+## about.html- This page shows the necessary information related to our Food-Delight website.
 
 
 
