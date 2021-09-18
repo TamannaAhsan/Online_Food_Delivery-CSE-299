@@ -13,6 +13,8 @@
 ## location.php-Customers could give their name and location through this page and they can also write location related messages.
 ## contact.php- Customers could give contact related information and they can also write reviews. 
 ## about.html- This page shows the necessary information related to our Food-Delight website.
+## Update_Password.html-This page updates password for profile
+## Update_Profile.html-This page updates profile information
 
 
 
