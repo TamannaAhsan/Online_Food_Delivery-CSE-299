@@ -15,6 +15,8 @@
 ## about.html- This page shows the necessary information related to our Food-Delight website.
 ## Update_Password.html-This page updates password for profile
 ## Update_Profile.html-This page updates profile information
+## Categories_Search.html-After searching foods will be shown based on categories
+## Foods_on_Search.html- After searching,foods will be shown as per searched process
 
 
 
